@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.flex {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+
+
+/* Header */
+header {
+    z-index: 2;
+    padding: 31px 0;
+}
+
+
+header nav .flex li {
+    display: block;
+    width: fit-content;
+    /* Width was styled in internal "style="width:   ;" */
+}
+
+
+header nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 11.92px;
+    font-weight: 400;
+    width: fit-content;
+}
+
+
+/* All Sections Styles */
+.spacex {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.spacex>video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.spacex .txt {
+    z-index: 2;
+    padding: 10% 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.spacex .txt h3 {
+    font-size: 17.19px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.spacex .txt {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+.spacex .txt h1 {
+    font-size: 41.06px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    width: 404.33px;
+}
+
+
+.spacex .txt button {
+    border: 2px solid #FFFFFF;
+    padding: 0 42px;
+    height: 45.93px;
+    background-color: transparent;
+    width: fit-content;
+}
+
+
+.spacex .txt button a {
+    font-size: 12.91px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+    width: 100%;
+    padding: 23px 0 20px;
+}
+
+
+footer nav ul li a {
+    font-size: 9.94px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+footer .container nav .flex {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+
+footer > .container > nav > .flex > li {
+    width: 150px;
+}
+
+
+footer > .container > nav > .flex > li > a {
+    width: 100px;
+}
